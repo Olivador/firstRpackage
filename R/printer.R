@@ -11,5 +11,5 @@
 source("./R/hello.R")
 printer <- function(r, x, y){
   print(paste0("x = ",x))
-  print(getwd())
+  print(hello(y))
 }
