@@ -15,9 +15,3 @@ hello(x)
 \description{
 My Hello World function
 }
-\examples{
-hello("John")
-\dontrun{
-hello("Steve")
-}
-}

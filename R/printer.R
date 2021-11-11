@@ -8,8 +8,8 @@
 #' @export
 #'
 #' @examples
-source("./R/hello.R")
+load_all()
 printer <- function(r, x, y){
   print(paste0("x = ",x))
-  print(hello(y))
+  hello(y)
 }
